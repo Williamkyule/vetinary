@@ -1,0 +1,42 @@
+.navbar{
+    background-color: #daac00;
+    height: 100px;
+    gap: 5rem;
+}
+
+.container-fluid{
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-link{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+    gap: 8rem;
+}
+
+.navbar-nav{
+    gap: 4rem;
+}
+
+.box{
+    border: 3px solid #d6d6d6;
+}
+
+@media only screen and (max-width: 767px) {
+    .container-fluid1{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width: 528px) {
+    .container-fluid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 360px) {
+    .container-fluid{
+        grid-template-columns: repeat(1fr);
+    }
+}
